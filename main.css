@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa; /* Light background for header */
+    padding: 20px; /* Padding around header */
+}
+
+/* Header Styles */
+.header-1 {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between items */
+}
+
+.header-1 img {
+    border: 0; /* Remove border from images */
+}
+
+.header-1 .logo {
+    margin: 0; /* Remove default margin */
+}
+
+.search-box-container {
+    display: flex; /* Flexbox for search box layout */
+    align-items: center; /* Center items vertically */
+}
+
+.search-box-container input[type="search"] {
+    padding: 5px; /* Padding inside search box */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.header-2 {
+    background-color: #007bff; /* Blue background for secondary header */
+    padding: 10px 0; /* Padding around secondary header */
+}
+
+.navbar {
+    display: flex; /* Flexbox for navigation bar */
+    justify-content: center; /* Center navigation items */
+}
+
+.navbar .btn {
+    margin: 0 15px; /* Margin between buttons */
+    color: white; /* White text color */
+    text-decoration: none; /* No underline for links */
+    border: 2px solid green; /* Green border for buttons */
+    padding: 10px 15px; /* Padding inside buttons */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar .btn:hover {
+    background-color: green; /* Change background on hover */
+}
+
+/* Home Section Styles */
+.home {
+    display: flex; /* Flexbox for home section */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 50px 20px; /* Padding around home section */
+    background-color: #e9ecef; /* Light gray background */
+}
+
+.home .image img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.home .content {
+    margin-left: 20px; /* Space between image and content */
+}
+
+.home .content span {
+    font-size: 20px; /* Font size for span */
+    color: #28a745; /* Green color */
+}
+
+.home .content h3 {
+    font-size: 32px; /* Font size for heading */
+    color: #333; /* Dark gray color */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #28a745; /* Green background for footer */
+    color: white; /* White text color */
+    padding: 20px 0; /* Padding around footer */
+}
+
+.box-container {
+    display: flex; /* Flexbox for box layout */
+    justify-content: space-around; /* Space around boxes */
+    flex-wrap: wrap; /* Allow wrapping of boxes */
+}
+
+.box {
+    flex: 1; /* Flex-grow to fill space */
+    min-width: 250px; /* Minimum width for boxes */
+    padding: 20px; /* Padding inside boxes */
+}
+
+.box h3 {
+    margin-top: 0; /* Remove top margin for headings */
+}
+
+.links a {
+    display: block; /* Block display for links */
+    color: white; /* White text color */
+    text-decoration: none; /* No underline for links */
+    margin: 5px 0; /* Margin between links */
+}
+
+.links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer p {
+    text-align: center; /* Center text in footer */
+    margin-top: 20px; /* Margin above footer text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .box-container {
+        flex-direction: column; /* Stack boxes vertically */
+        align-items: center; /* Center boxes */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+    }
+
+    .navbar .btn {
+        margin: 5px 0; /* Margin between buttons when stacked */
+    }
+}
