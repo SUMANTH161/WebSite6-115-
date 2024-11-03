@@ -1,5 +1,6 @@
 body{
     background-image: url("DALL·E\ 2024-10-04\ 23.07.24\ -\ A\ modern\ and\ stylish\ background\ image\ for\ a\ clothing\ website.\ The\ background\ should\ have\ a\ soft\,\ neutral\ color\ palette\ with\ light\ textures\ or\ patterns.webp");
+    background-repeat: no-repeat;
     background-size: cover;   
     height: 100%;
 }
@@ -169,6 +170,7 @@ button a{
 
 .footer {
     background: linear-gradient(to bottom,  #e6d0b1, rgba(0, 0, 255, 0));    margin-top: 100px;
+    width:100%;
     padding: 40px 20px; /* Add some padding */
     color: white; /* Text color */
     text-align: left; /* Align text to the left */
